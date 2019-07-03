@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# text-editor-slate-react
 Text editor developed with Reactjs an Slate.js
 =======
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
