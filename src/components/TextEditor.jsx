@@ -39,8 +39,8 @@ class TextEditor extends Component {
 	onKeyDown(e, change){
 
 		/*
-			we want all our commands to start with the user pressing ctrl,
-			if they don't--we cancel the action.
+			All our commands start with the user pressing ctrl,
+			if they don't, cancel the action.
 		*/
 
 		if (!e.ctrlKey) { return }
@@ -53,6 +53,7 @@ class TextEditor extends Component {
 				change.toggleMark('bold')
 				return true
 			}
+			/* When "i" is pressed, add a "italic" mark to the text. */
 			case 'i': {
 				change.toggleMark('italic')
 				return true
