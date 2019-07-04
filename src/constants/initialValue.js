@@ -1,5 +1,6 @@
-import { Value } from 'slate';
+import { Value } from 'slate'
 
+// Create the initial value...
 const initialValue = Value.fromJSON({
 	document: {
 		nodes: [
@@ -9,16 +10,12 @@ const initialValue = Value.fromJSON({
 				nodes: [
 					{
 						object: 'text',
-						leaves: [
-							{
-								text: 'My first paragraph!',
-							},
-						],
+						text: 'My first paragraph!'
 					},
 				],
 			},
 		],
 	},
-});
+})
 
 export default initialValue;
